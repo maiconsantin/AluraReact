@@ -1,7 +1,6 @@
-import React from "react";
+import style from "./Botao.module.scss";
 
-function Botao() {
-  return <button>Botão</button>;
+function Botao({texto}: {texto: string}) {
+    return <button className={style.botao}>{texto}</button>;
 }
-
 export default Botao;
