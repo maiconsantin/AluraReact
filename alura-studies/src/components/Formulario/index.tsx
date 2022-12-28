@@ -1,8 +1,7 @@
-import React from "react";
 import Botao from '../Botao/index';
 import style from "./Formulario.module.scss";
 
-function Formulario() {
+export default function Formulario() {
   return (
     <form className={style.novaTarefa}>
       <div className={style.inputContainer}>
@@ -31,5 +30,3 @@ function Formulario() {
     </form>
   );
 }
-
-export default Formulario;

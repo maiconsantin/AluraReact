@@ -1,7 +1,7 @@
 import Item from "./Item";
 import style from "./Lista.module.scss";
 
-function Lista() {
+export default function Lista() {
   const tarefas = [
     {
       tarefa: "React",
@@ -28,5 +28,3 @@ function Lista() {
     </aside>
   );
 }
-
-export default Lista;
