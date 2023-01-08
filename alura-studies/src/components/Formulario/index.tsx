@@ -23,7 +23,7 @@ export default function Formulario({ setTarefas }: Props) {
         selecionado: false,
         completado: false,
         id: uuidv4()
-      },
+      }
     ]);
     setTarefa("")
     setTempo("00:00");
